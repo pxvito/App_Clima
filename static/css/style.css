@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body{
+    background: url(../img/bg_weather.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-family: "Nunito", serif;
+}
+
+.weather-container{
+    background-color: #2d2d2d;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .3);
+    width: 100%;
+    max-width: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-header{
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #7eb6ff;
+}
+
+.weather-item i{
+    width: 25px;
+    color: #7eb6ff;
+    margin-left: 10px;
+}
+
+.form-control{
+    background-color: #3d3d3d;
+    border-color: #4d4d4d;
+    color: #fff;
+}
+
+.form-control:focus{
+    background-color: #3d3d3d;
+    border: #7eb6ff;
+    color: #fff;
+    box-shadow: 0 0 0 0.25rem rgba(126, 182, 255, 0.25);
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-text p{
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-text a{ 
+    color: #ff0202;
+    font-size: 18px;
+    font-weight: 500;
+}
